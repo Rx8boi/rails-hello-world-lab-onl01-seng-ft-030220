@@ -157,3 +157,10 @@ app/controllers/static_controller.rb:1:in `<top (required)>'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.0ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.0ms)
+Started GET "/hello_world" for 173.239.232.69 at 2020-05-18 01:14:59 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb within layouts/application
+  Rendered static/hello_world.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 379ms (Views: 378.0ms | ActiveRecord: 0.0ms)
+
+
